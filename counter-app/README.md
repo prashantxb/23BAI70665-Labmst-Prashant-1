@@ -1,16 +1,129 @@
-# React + Vite
+# React Counter Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Student Information
 
-Currently, two official plugins are available:
+**Name:** Prashant Bishnoi
+**Experiment:** React Counter Application
+**Course:** Lab MST
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Project Description
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a simple **React Counter Application** built using **React.js and Vite**.
+The application demonstrates the use of **React Functional Components, useState Hook, and Event Handling**.
 
-## Expanding the ESLint configuration
+The counter value updates dynamically when the user clicks the increment or decrement buttons.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Live Deployment
+
+**Vercel Deployment Link:**
+https://23-bai-70665-labmst-prashant-1-g7a5.vercel.app/
+
+---
+
+## GitHub Repository
+
+**Project Source Code:**
+https://github.com/prashantxb/23BAI70665-Labmst-Prashant-1
+
+---
+
+## Features
+
+* Increment Counter
+* Decrement Counter
+* Reset Counter
+* Minimum value validation
+* Maximum value limit
+* Dynamic UI updates
+
+---
+
+## Technologies Used
+
+* React.js
+* Vite
+* JavaScript (ES6)
+* CSS
+* Git & GitHub
+* Vercel
+
+---
+
+## Project Folder Structure
+
+```
+counter-app
+│
+├── src
+│   ├── components
+│   │   ├── Counter.jsx
+│   │   ├── Button.jsx
+│   │   └── Counter.css
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## How the Application Works
+
+The application uses the **useState hook** to manage the counter state.
+
+* Increment button increases the counter value
+* Decrement button decreases the counter value
+* Reset button sets the counter value to zero
+
+React automatically updates the user interface whenever the state changes.
+
+---
+
+## Steps to Run the Project Locally
+
+1. Clone the repository
+
+```
+git clone https://github.com/prashantxb/23BAI70665-Labmst-Prashant-1.git
+```
+
+2. Navigate to project folder
+
+```
+cd counter-app
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the development server
+
+```
+npm run dev
+```
+
+---
+
+## Learning Outcomes
+
+* Understanding React functional components
+* Using React hooks (useState)
+* Event handling in React
+* Component-based architecture
+* Deploying React applications using Vercel
+
+---
+
+## Conclusion
+
+This experiment demonstrates how React can be used to build interactive user interfaces using component-based architecture and state management.
